@@ -18,6 +18,7 @@ while True:
     if len(hands) == 2:
         # print("zoom Gesture")
         # print(detector.fingersUp(hands[0]), detector.fingersUp(hands[1]))
+        # print (detector.finddistance)
         if detector.fingersUp(hands[0]) == [1, 1, 0, 0, 0] and \
                 detector.fingersUp(hands[1]) == [1, 1, 0, 0, 0]:
             # print("Zoom Gesture")
